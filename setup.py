@@ -7,5 +7,7 @@ setup(name='snowdeer_common',
       author='snowdeer',
       author_email='snowdeer0314@gmail.com',
       license='Apache',
-      packages=['snowdeer_common'],
+      packages=['snowdeer_common',
+                'snowdeer_common.utils'
+                ],
       zip_safe=False)
